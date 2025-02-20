@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .top-links {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+        }
+        .top-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: black;
+        }
+        .logo {
+            font-size: 60px;
+            font-weight: bold;
+            color: #4285F4;
+        }
+        .logo span:nth-child(2) { color: #EA4335; }
+        .logo span:nth-child(3) { color: #FBBC05; }
+        .logo span:nth-child(4) { color: #4285F4; }
+        .logo span:nth-child(5) { color: #34A853; }
+        .logo span:nth-child(6) { color: #EA4335; }
+        .search-box {
+            margin-top: 20px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            padding: 10px;
+            width: 500px;
+        }
+        .search-box input {
+            border: none;
+            outline: none;
+            flex: 1;
+            font-size: 16px;
+        }
+        .search-buttons {
+            margin-top: 20px;
+        }
+        .search-buttons button {
+            background-color: #f8f9fa;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .search-buttons button:hover {
+            background-color: #dfe1e5;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top-links">
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <a href="#" style="background-color: blue; color: white; padding: 5px 10px; border-radius: 4px;">Sign in</a>
+    </div>
+
+    <div class="logo">
+
+    </div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search Google or type a URL">
+    </div>
+
+    <div class="search-buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+
+</body>
+</html>
